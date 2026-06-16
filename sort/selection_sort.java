@@ -1,5 +1,7 @@
 package sort;
 import java.util.Scanner;
+
+//o(n^2) time complexity
 public class selection_sort {
     static void selectionSort(int arr[]){
         for(int i=0;i<arr.length;i++){
