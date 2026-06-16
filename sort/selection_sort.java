@@ -1,20 +1,20 @@
 package sort;
-//o(n^2) time complexity
-//address la dha change aagum array values
 import java.util.Scanner;
-public class bubble_sort {
-    static void bubbleSort(int arr[]){
+public class selection_sort {
+    static void selectionSort(int arr[]){
         for(int i=0;i<arr.length;i++){
-            for(int j=0;j<arr.length-1;j++){
-                if(arr[j]>arr[j+1]){
-                    int temp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = temp;
-                }
+            int minIndex=i;
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[j]<arr[minIndex]){
+                    minIndex = j;
             }
-        }
-    }
 
+            int temp = arr[minIndex];
+            arr[minIndex] = arr[i];
+            arr[i] = temp;
+        }       
+     }
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -23,10 +23,11 @@ public class bubble_sort {
         for(int i=0;i<n;i++){
             arr[i] = sc.nextInt();
         }
-        bubbleSort(arr);
+        selectionSort(arr);
         System.out.println("Sorted array: ");
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i] + " ");
         }
+        sc.close();
     }
 }
