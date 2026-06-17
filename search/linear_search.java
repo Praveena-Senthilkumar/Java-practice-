@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//o(n) time complexity
 public class linear_search {
     
     static int linearSearch_array(int arr[], int key){

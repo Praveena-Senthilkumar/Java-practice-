@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//o(log n) time complexity
 public class binarysearch {
     static int binarySearch_array(int arr[], int key){
         int left = 0;

@@ -1,5 +1,6 @@
 package sort;
 import java.util.Scanner;
+
 //o(n^2) time complexity
 public class insertion_sort {
     static void insertionSort(int arr[]){
