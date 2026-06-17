@@ -1,30 +1,28 @@
 DSA:
 
--> garbage collector - heap memory irka unused objects clear panidum
--> heap memory - for objects 
+-> garbage collector - clears unused objects in heap memory
+-> heap memory - used for storing objects
 
 Time complexity - time taken to evaluate or execute a program
-O - worst case scenario
-O(1) - direct access without any loops
+O(n) - worst case scenario
+O(1) - direct access without loops
 O(n) - single loop
-O(n square) - 2 for loop
-o(log n) - higher than 1 and less than n
-Co-efficient omit pananu
+O(n^2) - two nested loops
+O(log n) - higher than 1 and less than n
+Coefficient omitted for complexity
 
 
-Space complexity - extra space
+Space complexity - extra space used
 
 
 =============================================================================================================================================
 
-Interfaces - iterable,collection,list,queue,set,deque,sortedset,map,blockingqueue
+Interfaces - Iterable, Collection, List, Queue, Set, Deque, SortedSet, Map, BlockingQueue
 
-Classes - (Arraylist,linkedlist), priorityqueue, arraydeque, hashset, linkedhashset, hashmap, linkedhashmap, treeset, treemap, arrayblockingqueue
-
-
-
-Arraylist - collectionof data with duplicate values, able to store multiple datatypes- disadvantage
+Classes - ArrayList, LinkedList, PriorityQueue, ArrayDeque, HashSet, LinkedHashSet, HashMap, LinkedHashMap, TreeSet, TreeMap, ArrayBlockingQueue
 
 
+ArrayList - collection of data with duplicate values, can store multiple datatypes (disadvantage: not type-safe without generics)
 
-bubble,insertion,selection sort 
+
+
