@@ -23,6 +23,6 @@ class arrlist
         }
 
         List l2 = new ArrayList();
-        l2.
+        
     }
 }

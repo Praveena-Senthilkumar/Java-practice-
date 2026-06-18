@@ -1,4 +1,4 @@
-class non_repetitive_character {
+public class non_repetitive_character {
    public static void main(String[] args) {
       String str = "abcabcde";
       char result = findFirstNonRepetitiveCharacter(str);
@@ -9,7 +9,7 @@ class non_repetitive_character {
       }
    }
 
-}
+
 
 public static char findFirstNonRepetitiveCharacter(String str) {
    for (int i = 0; i < str.length(); i++) {
@@ -28,4 +28,5 @@ public static char findFirstNonRepetitiveCharacter(String str) {
       }
    }
    return '\0'; 
+}
 }
